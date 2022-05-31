@@ -32,9 +32,7 @@ namespace siparis.DAL.Migrations.PostgreDb
                         .HasColumnType("character varying(100)");
 
                     b.Property<DateTime>("CreateDate")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("timestamp without time zone")
-                        .HasDefaultValueSql("Getdate()");
+                        .HasColumnType("timestamp without time zone");
 
                     b.Property<string>("KategoriKodu")
                         .HasColumnType("text");
@@ -53,7 +51,7 @@ namespace siparis.DAL.Migrations.PostgreDb
                         {
                             Id = 1,
                             Aciklama = "Elektronik",
-                            CreateDate = new DateTime(2022, 5, 31, 12, 33, 16, 861, DateTimeKind.Local).AddTicks(7641),
+                            CreateDate = new DateTime(2022, 5, 31, 12, 42, 46, 436, DateTimeKind.Local).AddTicks(8011),
                             KategoriKodu = "001",
                             Name = "Elektronik"
                         },
@@ -61,7 +59,7 @@ namespace siparis.DAL.Migrations.PostgreDb
                         {
                             Id = 2,
                             Aciklama = "Bilgisayar",
-                            CreateDate = new DateTime(2022, 5, 31, 12, 33, 16, 861, DateTimeKind.Local).AddTicks(8197),
+                            CreateDate = new DateTime(2022, 5, 31, 12, 42, 46, 438, DateTimeKind.Local).AddTicks(496),
                             KategoriKodu = "002",
                             Name = "Bilgisayar"
                         },
@@ -69,7 +67,7 @@ namespace siparis.DAL.Migrations.PostgreDb
                         {
                             Id = 3,
                             Aciklama = "Cep Telefonu",
-                            CreateDate = new DateTime(2022, 5, 31, 12, 33, 16, 861, DateTimeKind.Local).AddTicks(8200),
+                            CreateDate = new DateTime(2022, 5, 31, 12, 42, 46, 438, DateTimeKind.Local).AddTicks(509),
                             KategoriKodu = "003",
                             Name = "Cep Telefonu"
                         },
@@ -77,7 +75,7 @@ namespace siparis.DAL.Migrations.PostgreDb
                         {
                             Id = 4,
                             Aciklama = "Beyaz Esya",
-                            CreateDate = new DateTime(2022, 5, 31, 12, 33, 16, 861, DateTimeKind.Local).AddTicks(8204),
+                            CreateDate = new DateTime(2022, 5, 31, 12, 42, 46, 438, DateTimeKind.Local).AddTicks(513),
                             KategoriKodu = "004",
                             Name = "Beyaz Esya"
                         });

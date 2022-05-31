@@ -17,7 +17,7 @@ namespace siparis.DAL.Migrations.PostgreDb
                     KategoriKodu = table.Column<string>(type: "text", nullable: true),
                     Aciklama = table.Column<string>(type: "character varying(100)", maxLength: 100, nullable: false),
                     Name = table.Column<string>(type: "character varying(50)", maxLength: 50, nullable: false),
-                    CreateDate = table.Column<DateTime>(type: "timestamp without time zone", nullable: false, defaultValueSql: "Getdate()")
+                    CreateDate = table.Column<DateTime>(type: "timestamp without time zone", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -152,10 +152,10 @@ namespace siparis.DAL.Migrations.PostgreDb
                 columns: new[] { "Id", "Aciklama", "CreateDate", "KategoriKodu", "Name" },
                 values: new object[,]
                 {
-                    { 1, "Elektronik", new DateTime(2022, 5, 31, 12, 33, 16, 861, DateTimeKind.Local).AddTicks(7641), "001", "Elektronik" },
-                    { 2, "Bilgisayar", new DateTime(2022, 5, 31, 12, 33, 16, 861, DateTimeKind.Local).AddTicks(8197), "002", "Bilgisayar" },
-                    { 3, "Cep Telefonu", new DateTime(2022, 5, 31, 12, 33, 16, 861, DateTimeKind.Local).AddTicks(8200), "003", "Cep Telefonu" },
-                    { 4, "Beyaz Esya", new DateTime(2022, 5, 31, 12, 33, 16, 861, DateTimeKind.Local).AddTicks(8204), "004", "Beyaz Esya" }
+                    { 1, "Elektronik", new DateTime(2022, 5, 31, 12, 42, 46, 436, DateTimeKind.Local).AddTicks(8011), "001", "Elektronik" },
+                    { 2, "Bilgisayar", new DateTime(2022, 5, 31, 12, 42, 46, 438, DateTimeKind.Local).AddTicks(496), "002", "Bilgisayar" },
+                    { 3, "Cep Telefonu", new DateTime(2022, 5, 31, 12, 42, 46, 438, DateTimeKind.Local).AddTicks(509), "003", "Cep Telefonu" },
+                    { 4, "Beyaz Esya", new DateTime(2022, 5, 31, 12, 42, 46, 438, DateTimeKind.Local).AddTicks(513), "004", "Beyaz Esya" }
                 });
 
             migrationBuilder.CreateIndex(

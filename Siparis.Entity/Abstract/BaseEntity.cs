@@ -10,7 +10,7 @@ namespace Siparis.Entity.Abstract
     {
         public virtual int Id { get; set; }
         public virtual string Name { get; set; }
-        private DateTime _createDate = DateTime.Now;
+        private DateTime _createDate = DateTime.UtcNow;
 
         public virtual DateTime CreateDate
         {

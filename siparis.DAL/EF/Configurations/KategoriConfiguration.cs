@@ -16,7 +16,7 @@ namespace siparis.DAL.EF.Configurations
 
             builder.Property(p => p.Name).HasMaxLength(50).IsRequired(true);
             builder.Property(p => p.Aciklama).HasMaxLength(100).IsRequired(true);
-            builder.Property(p => p.CreateDate).HasDefaultValueSql("Getdate()");
+            
 
             builder.HasData(
           new Kategory { Id = 1, KategoriKodu = "001", Name = "Elektronik", Aciklama = "Elektronik", CreateDate = DateTime.Now },

@@ -25,7 +25,10 @@ namespace siparis.DAL.EF.Contexts
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             base.OnConfiguring(optionsBuilder);
-            optionsBuilder.UseNpgsql(@"Server=127.0.0.1;Database=SiparisYonetimi;User Id=postgres;password=123");
+            optionsBuilder.UseNpgsql(@"Server=127.0.0.1;
+                                       Database=SiparisYonetimi;
+                                       User Id=postgres;
+                                       password=123");
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)

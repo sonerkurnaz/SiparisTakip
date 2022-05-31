@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Siparis.Entity", "Siparis.E
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "siparis.DAL", "siparis.DAL\siparis.DAL.csproj", "{BE107D1E-ACBD-439D-B71D-252739D6CF8C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Northwind.Entity", "Northwind.Entity\Northwind.Entity.csproj", "{CE502C04-74B6-47E5-A724-27A7B2F3E951}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{BE107D1E-ACBD-439D-B71D-252739D6CF8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BE107D1E-ACBD-439D-B71D-252739D6CF8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BE107D1E-ACBD-439D-B71D-252739D6CF8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE502C04-74B6-47E5-A724-27A7B2F3E951}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE502C04-74B6-47E5-A724-27A7B2F3E951}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE502C04-74B6-47E5-A724-27A7B2F3E951}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE502C04-74B6-47E5-A724-27A7B2F3E951}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

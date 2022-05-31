@@ -1,4 +1,5 @@
 ﻿using Siparis.Entity.Abstract;
+using System.Collections.Generic;
 
 namespace Siparis.Entity.Concrete
 {
@@ -7,7 +8,7 @@ namespace Siparis.Entity.Concrete
         public string Ad { get; set; }
         public string Soyad { get; set; }
         public bool Cinsiyet { get; set; }
-        public IColelection<SiparisMaster> Siparisler { get; set; }
+        public ICollection<SiparisMaster> Siparisler { get; set; }
 
     }
 }

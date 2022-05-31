@@ -11,7 +11,6 @@
   <ItemGroup>
     <Folder Include="Ado.Net\" />
     <Folder Include="Dapper\" />
-    <Folder Include="EF\" />
   </ItemGroup>
 
   <ItemGroup>
